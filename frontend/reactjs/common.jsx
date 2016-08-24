@@ -1,12 +1,13 @@
 import React from 'react';
-import Common from './common.jsx'
 
 class App extends React.Component {
    render() {
       return (
-         <Common></Common>
+         <div>
+            Hello World!!!
+         </div>
       );
    }
 }
 
-export default App;
+export default Common;
