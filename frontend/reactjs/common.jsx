@@ -1,11 +1,14 @@
 import React from 'react';
+import Dropdown from './components/dropdown/dropdown.js';
 
-export class App extends React.Component {
+export class Common extends React.Component {
    render() {
-      return (
-         <div>
-            Hello World!!!
-         </div>
+   	var a = {
+   		menu_content:[{text:"dropdownnnnn"},{icon:"glyphicon glyphicon-xbt"}]
+   	};
+      return ( 
+         <Dropdown options={a}/>
+      
       );
    }
 }

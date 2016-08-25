@@ -1,12 +1,9 @@
-import React from 'react';
+'use strict';
+import Base  from './base';
+import Html  from './html';
 
-export default class DropDown extends React.Component {
-   render() {
-      return (
-         <div>
-            <Header/>
-            <Content/>
-         </div>
-      );
-   }
+export default class Dropdown extends Base {
+    render() {
+        return Html.call(this, this.props, this.state);
+    }
 }
